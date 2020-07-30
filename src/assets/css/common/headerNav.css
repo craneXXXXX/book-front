@@ -1,0 +1,12 @@
+.worthbuying-header {
+  height: 60px;
+  line-height: 60px;
+  font-size: 26px;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  align-items: center;
+  background: white;
+}

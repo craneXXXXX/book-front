@@ -1,0 +1,63 @@
+.preference-header{
+    text-align: center;
+    margin-bottom: 16px;
+    font-size: 20px;
+    
+}
+.preference-header span{
+    color: rgb(230, 41, 41);
+}
+.preference {
+  overflow: hidden;
+}
+.preference li {
+  float: left;
+  width: 48%;
+  padding-bottom: 40px;
+  margin: 0 1%;
+  overflow: hidden;
+}
+.preference-img {
+  overflow: hidden;
+}
+.preference-img img {
+  width: 100%;
+}
+.preference-title {
+  width: 80%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-left: 20px;
+  font-size: 20px;
+  color: #000;
+  overflow: hidden;
+}
+.preference-tag span:first-child {
+  display: inline-block;
+  color: rgb(230, 41, 41);
+  border: 1px solid rgb(230, 41, 41);
+  padding: 2px 4px;
+  border-radius: 4px;
+  margin-right: 10px;
+  margin-left: 20px;
+}
+.preference-tag span:last-child {
+  display: inline-block;
+  background-color: rgb(230, 41, 41);
+  color: white;
+  padding: 1px 2px;
+  border-radius: 4px;
+}
+.preference-price {
+  color: rgb(247, 38, 38);
+  font-size: 24px;
+  margin-left: 20px;
+}
+.preference-comment {
+  color: #999;
+  margin-left: 20px;
+}
+.CheckCircleOutlinedIcon{
+    font-size: 30px;
+}

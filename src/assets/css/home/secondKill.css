@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.secondkill-body{
+    padding-bottom: 150px;
+}
+.banner img {
+  width: 100%;
+}
+.clock-box {
+  margin-left: 30%;
+}
+.clock-box .clock {
+  width: 100%;
+  display: flex;
+  font-size: 20px;
+  font-weight: bold;
+  align-items: center;
+}
+.clock span {
+  background: #444;
+  padding: 4px;
+  color: white;
+  display: inline-block;
+  margin: 0 8px;
+  border-radius: 6px;
+  font-size: 16px;
+}
+.img-list {
+  display: flex;
+  overflow: hidden;
+  overflow-x: auto;
+  margin-top: 30px;
+}
+.img-list-box {
+  margin: 0 10px;
+  font-size: 20px;
+}
+.img-list-img {
+  width: 150px;
+}
+.img-list-img img {
+  width: 100%;
+}
+p.img-list-name {
+  text-indent: 2px;
+  width: 146px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-bottom: 0;
+}
+p.img-list-num {
+  color: #f3344a;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+p.img-list-discount {
+  color: #bababa;
+  margin-bottom: 0;
+}
+.static-img {
+  height: 100px;
+}
+.static-img img {
+  width: 100%;
+}

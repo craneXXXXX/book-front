@@ -1,0 +1,52 @@
+.orderpaylist{
+    display: flex;
+    padding: 18px 0;
+    border-bottom: 1px solid #eee;
+}
+.orderpaylist-imgbox{
+    width: 36%;
+}
+.orderpaylist-imgbox img{
+    width: 100%;
+}
+.orderpaylist-title{
+    font-size: 20px;
+    
+}
+.orderpaylist-content{
+    flex:1;
+    padding-top: 12px;
+    margin: 0 20px;
+    position: relative;
+}
+.orderpaylist-remind{
+    width: 100px;
+    border: 1px solid #f40;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 4px;
+    background: white;
+    color: #f40;
+    float: right;
+}
+.orderpaylist-withdraw{
+    width: 100px;
+    border: 1px solid #333;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 4px;
+    background: white;
+    color: #333;
+    margin: 0 10px 0 30px;
+    float: right;
+}
+.orderpaylist-btn{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.orderlist-bigcontainer{
+    padding-bottom: 100px;
+}

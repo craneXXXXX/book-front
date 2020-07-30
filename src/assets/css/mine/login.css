@@ -1,0 +1,57 @@
+.login-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  line-height: 50px;
+  border-bottom: 1px solid #ddd;
+}
+.login-header-left {
+  margin-left: 20px;
+  font-size: 30px;
+}
+.login-header-right {
+  font-size: 30px;
+  margin-right: 30px;
+}
+.login-header p {
+  font-size: 30px;
+  margin-bottom: 0;
+}
+.ant-form.ant-form-horizontal{
+    margin: 0 auto;
+}
+.login-input {
+  width: 80%;
+  margin: 0 auto;
+} 
+.ant-form.ant-form-horizontal{
+   margin: 0 auto;
+}
+.ant-row.ant-form-item {
+  margin: 0 auto;
+}
+
+.ant-btn.ant-btn-primary {
+  width: 360px;
+  height: 60px;
+  border-radius: 10px;
+  border: none;
+}
+.login-btn{
+    width: 80%;
+    margin: 40px 0;
+    margin-left: 46px;
+    border: none;
+    background:#f40;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 10px;
+    background-color: none;
+    color: white;
+}
+.togoregister-btn{
+    color: rgb(243, 85, 28);
+    padding-right: 50px;
+    text-align: right;
+}

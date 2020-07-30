@@ -1,0 +1,131 @@
+.shoppingcar-empty {
+  height: 400px;
+  background: #f2f2f2 url("http://cart.m.dangdang.com/images/cart_null.gif")
+    no-repeat;
+  background-position: center 30px;
+  background-size: 50%;
+  margin-bottom: 20px;
+  position: relative;
+  text-align: center;
+}
+.shoppingcar-empty-btn {
+  width: 100%;
+}
+.shoppingcar-empty-content {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translate(-50%);
+  width: 100%;
+}
+.shoppingcar-empty-tip {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.shoppingcar-empty-btn button {
+  border: 1px solid #999;
+  padding: 6px 22px;
+  border-radius: 10px;
+  font-size: 26px;
+  margin: 0 18px;
+}
+.shoppingcarlist {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+.shoppingcarlist-imgbox {
+  width: 40%;
+  margin-right: 10px;
+}
+.shoppingcarlist-imgbox img {
+  width: 100%;
+}
+.shoppingcarlist-content {
+  width: 56%;
+}
+.shoppingcarlist-content-title {
+  width: 86%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.shoppingcar-full {
+  padding: 20px;
+  margin-bottom: 30px;
+}
+.shoppingcarlist-checkone {
+  width: 60px;
+  display: flex;
+  align-items: center;
+}
+.shoppingcarlist-checkall {
+  height: 40px;
+  font-size: 20px;
+}
+.shoppingcarlist-content-price {
+  font-size: 26px;
+  color: #f40;
+}
+.shoppingcarlist-content-operation {
+  height: 60px;
+  position: relative;
+  overflow: hidden;
+  margin: 30px 0;
+}
+.shoppingcarlist-content-del {
+  float: right;
+  margin-right: 190px;
+  width: 100px;
+  background: transparent;
+  height: 50px;
+  border-radius: 6px;
+  border: 1px solid #999;
+}
+
+.shoppingcarlist-footer {
+  height: 68px;
+  border-top: 1px solid #eee;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: white;
+  z-index: 2;
+}
+.shoppingcarlist-footer-btn {
+  background: #f40;
+  color: white;
+  float: right;
+  height: 68px;
+  width: 120px;
+  line-height: 68px;
+  text-align: center;
+  font-size: 22px;
+}
+.shoppingcarlist-footer-tip {
+  float: right;
+  line-height: 68px;
+  margin-right: 30px;
+  font-size: 24px;
+}
+.shoppingcarlist-footer-tip-num {
+  font-size: 28px;
+  color: #f40;
+}
+.shoppingcarlist-num-stepper {
+  border: 1px solid #eee;
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: flex;
+}
+.num-stepper-click{
+  width: 40px;
+}
+span.num-stepper-num{
+  height: 100%;
+  margin-top: 0;
+}

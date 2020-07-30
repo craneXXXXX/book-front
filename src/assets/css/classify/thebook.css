@@ -1,0 +1,46 @@
+.thebook-header img{
+    width: 100%;
+}
+.thebook-select{
+display: flex;
+justify-content: space-around;
+text-align: center;
+}
+.thebook-select-title{
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.thebook-select-content{
+    color: #999;
+}
+.thebook-listone-title{
+     color: #000;
+     margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-indent: 2em;
+    margin: 10px 0;
+}
+.thebook-listone-content{
+    margin: 0 1%;
+    overflow: hidden;
+}
+.thebook-listone .thebook-listone-content li{
+    float: left;
+     width: 32%;
+     text-align: center;
+}
+.thebook-listone .thebook-listone-content li a{
+    color: #666;
+    display: inline-block;
+    padding: 4px;
+}
+.thebook-listone .thebook-listone-content li p{
+    text-indent: 2em;
+}
+.thebook-listone img{
+    width: 100%;
+}

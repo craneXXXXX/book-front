@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.header-search{
+    position: relative;
+}
+.header-search input {
+  height: 42px;
+  width: 340px;
+  border-radius: 20px;
+  background: #eee;
+  border: none;
+  outline: none;
+  text-indent: 3em;
+}
+.home-search-icon{
+    position: absolute;
+    left: 18px;
+    top: 12px;
+    font-size: 26px;
+}

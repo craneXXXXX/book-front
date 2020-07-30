@@ -1,0 +1,11 @@
+.container{
+    overflow: hidden;
+}
+.item{
+    width: 20%;
+    float: left;
+    overflow: hidden;
+}
+.item img{
+    width: 100%;
+}

@@ -1,0 +1,56 @@
+.orderlist{
+    display: flex;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+.orderlist-imgbox{
+    width: 36%;
+}
+.orderlist-imgbox img{
+    width: 100%;
+}
+.orderlist-num{
+    width: 11%;
+    text-align: center;
+}
+.orderlist-title{
+    font-size: 20px;
+    
+}
+.orderlist-content{
+    flex:1;
+    padding-top: 20px;
+    margin: 0 20px;
+}
+.orderlist-num{
+    padding-top: 20px;
+}
+.orderlist-times{
+    color: #f40;
+}
+.orderlist-price{
+    font-size: 22px;
+    padding-right: 10px;
+}
+.orderlist-totalprice{
+    text-align: right;
+    padding-right: 20px;
+    font-size: 22px;
+}
+.orderlist-totalprice-price{
+    font-size: 28px;
+    color: #f40;
+}
+.orderlist-footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 70px;
+    line-height: 70px;
+    z-index: 3;
+    background-color: #f40;
+    font-size: 24px;
+    border-radius: 4px;
+    text-align: center;color: white;
+}

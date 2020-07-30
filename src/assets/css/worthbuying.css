@@ -1,0 +1,65 @@
+
+.worthbuying-container {
+  width: 560px;
+  display: flex;
+  padding: 10px 0;
+  /* border-bottom: 1px solid #ccc; */
+}
+.worthbuying-container-imgbox {
+  margin-left: 10px;
+  width: 30%;
+}
+.worthbuying-container-imgbox img {
+  width: 100%;
+}
+.worthbuying-container-content {
+  width: 66%;
+  margin-left: 20px;
+  font-size: 20px;
+}
+.worthbuying-container-content p {
+  margin-bottom: 4px;
+}
+.worthbuying-container-title {
+  width: 90%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-top: 20px;
+}
+.worthbuying-container-tag span {
+  background: #f40;
+  color: white;
+  padding: 2px 4px;
+  border-radius: 6px;
+}
+.worthbuying-container-price-now {
+  color: #f40;
+  margin-right: 20px;
+}
+.worthbuying-container-comment {
+  text-align: right;
+  padding-right: 50px;
+}
+.worthbuying-container-comment-shoppingcar {
+  margin-left: 20px;
+  font-size: 30px;
+  border: 0.5px solid #ccc;
+  border-radius: 4px;
+  padding: 0 4px;
+  color: #f40;
+}
+.demo-infinite-container {
+  border: 1px solid #e8e8e8;
+  border-radius: 4px;
+  overflow: auto;
+  padding: 8px 24px;
+  height: 840px;
+  margin: 0;
+  padding: 0;
+}
+.demo-loading-container {
+  position: absolute;
+  bottom: 40px;
+  text-align: center;
+}
